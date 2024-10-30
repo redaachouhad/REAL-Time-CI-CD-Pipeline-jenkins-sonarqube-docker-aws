@@ -22,7 +22,7 @@ pipeline {
 
         stage('Git Checkout') {
             steps {
-               git branch: 'main', changelog: false, poll: false, url: 'https://github.com/redaachouhad/REAL-Time-CI-CD-Pipeline-jenkins-sonarqube-owasp-docker.git'
+               git branch: 'main', changelog: false, poll: false, url: 'https://github.com/redaachouhad/REAL-Time-CI-CD-Pipeline-jenkins-sonarqube-docker-aws.git'
             }
         }
 
