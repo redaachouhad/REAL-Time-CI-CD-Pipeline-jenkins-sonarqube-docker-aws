@@ -1,7 +1,7 @@
 # REAL-Time-CI-CD-Pipeline-jenkins-sonarqube-owasp-docker
 
 ## Description:
- he project is about creating a comprehensive CI/CD pipeline that automates the process of building, testing, and deploying a Java application. Utilizing tools such as Git, Maven, SonarQube, Docker, and AWS EC2, the pipeline ensures seamless integration and continuous deployment. The application undergoes rigorous testing and code quality analysis before being packaged into a Docker image. This image is then pushed to a container registry and deployed on an EC2 instance, allowing for efficient scaling and management. The goal of the project is to enhance software development efficiency and maintain high-quality standards through automation.
+The project is about creating a comprehensive CI/CD pipeline that automates the process of building, testing, and deploying a Java application. Utilizing tools such as Git, Maven, SonarQube, Docker, and AWS EC2, the pipeline ensures seamless integration and continuous deployment. The application undergoes rigorous testing and code quality analysis before being packaged into a Docker image. This image is then pushed to a container registry and deployed on an EC2 instance, allowing for efficient scaling and management. The goal of the project is to enhance software development efficiency and maintain high-quality standards through automation.
 
 ## 1. CI-CD Pipeline Schema:
 
