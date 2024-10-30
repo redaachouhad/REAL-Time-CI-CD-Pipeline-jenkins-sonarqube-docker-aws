@@ -1,0 +1,25 @@
+services:
+
+
+
+  todo_list:
+    image: todo_list
+    container_name: todo_list_service
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - "8081:8081"
+    networks:
+      - app-network
+
+
+
+
+networks:
+  app-network:
+    driver: bridge
+
+volumes:
+  postgres_data:
+    driver: local
